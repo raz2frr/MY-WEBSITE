@@ -1,5 +1,7 @@
 h1 {
-    color:rgb(250, 191, 200)
+    color:rgb(250, 191, 200);
+    margin:0% 0% 0% 30%;
+
 }
 
 h2 {
@@ -10,5 +12,11 @@ p {
     width: 50%;
     background-color: rgb(250, 219, 244);
     color: palevioletred;
+    text-align: center;
+    line-height: 2;
+    padding:30% 30% 30% 30%;
+    margin:0% 0% 0% 30%;
+    font-size:18px;
+    font-family: "Montserrat", sans-serif;
 
 }
