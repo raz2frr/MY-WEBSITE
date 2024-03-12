@@ -26,4 +26,4 @@ if (password=wrong) {
 }
 
 let mymyHeading = document.getElementById("myHeading")
-myWeb.innerHTML = "Welcome to To Do Website! This app is made for those who lack motivation to do simple everyday tasks. This app will help those users complete tasks in a intertaining way by earing rewards after quest complishion! ";
+mymyHeading.innerHTML = "Welcome to To Do Website! This app is made for those who lack motivation to do simple everyday tasks. This app will help those users complete tasks in a intertaining way by earing rewards after quest complishion! ";
