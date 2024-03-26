@@ -25,5 +25,22 @@ if (password=wrong) {
     console.log("One moment, securing your data...")
 }
 
-let mymyHeading = document.getElementById("myHeading")
-mymyHeading.innerHTML = "Welcome to To Do Website! This app is made for those who lack motivation to do simple everyday tasks. This app will help those users complete tasks in a intertaining way by earing rewards after quest complishion! ";
+// incase a minor use operation below to figure out when they can use app
+let currentAge = 7;
+let yearsToAdd = 3;
+let futureAge = currentAge + yearsToAdd;
+
+console.log("Your age after " + yearsToAdd + " years will be " + futureAge + ".");
+
+
+let myHeading = document.getElementById("myHeading")
+myWeb.innerHTML = "Welcome to To Do Website! This app is made for those who lack motivation to do simple everyday tasks. This app will help those users complete tasks in a intertaining way by earing rewards after quest complishion! ";
+
+// Function to add two numbers
+function addNumbers(num1, num2) {
+    return num1 + num2;
+}
+
+// Example 
+let result = addNumbers(5, 3);
+console.log("The result of addition is: " + result);
